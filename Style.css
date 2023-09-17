@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: #f0efee;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(109, 244, 127);
+}
+a:visited {
+  color: rgb(124, 48, 194);
+}
+
+.ava {
+  width: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.ava2 {
+  width: 300px;
+
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.info p {
+  color: green;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.info h1 {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+  border-color: #8f4208;
+  color: rgb(240, 77, 17);
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.bg-yellow {
+  background: #826046;
+}
+
+.bg-loh {
+  background: #e4975c;
+}
+.bg-green {
+  background: #918d87;
+}
+.bg-red {
+  background: #ab9090;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: rgb(27, 37, 142);
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+  color: #576c9d;
+}
